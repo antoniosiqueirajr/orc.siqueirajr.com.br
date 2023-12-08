@@ -1,0 +1,7 @@
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.(.*) [NC]
+RewriteRule ^(.*) http://%1/$1 [R=301,L]
+RewriteCond $1 !^(index\.php|assets|upload|assinatura)
+RewriteRule ^(.*)$ index.php/$1 [L]

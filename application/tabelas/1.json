@@ -1,0 +1,296 @@
+{
+  "nome": "Plano Íris Interno",
+  "sigla": "iris-interno",
+  "bloco_tipo": 2,
+  "parcelas": 60,
+  "produtoPlano":"sim",
+  "produtoJazigo": "não",
+  "vinculoDeJazigo": "sim",
+  "beneficiarios": "sim",
+  "procuradores": "sim",
+  "vendaPlano": {
+    "id": 714,
+    "item": {
+      "tipo": "serviço",
+      "id": 746,
+      "valor": 2160
+    },
+    "valores": [
+      36,
+      40,
+      44,
+      48,
+      53
+    ]
+  },
+  "tiposDeVendas": [],
+  "triggers": [
+    {
+      "funcao": "promocaoDescontoValorBasePorIdade",
+      "parametros": {
+        "idade": 70,
+        "descontoPercentual": 50
+      }
+    },
+    {
+      "funcao": "promocaoValorBasePorIdadeQuantidadeMinima",
+      "parametros": {
+        "idade": 70,
+        "quantidadeMinima": 2,
+        "valores": [
+          3,
+          3,
+          3,
+          4,
+          4
+        ]
+      }
+    }
+  ],
+  "valoresBeneficiarios": [
+    {
+      "caracteristicas": {
+        "inicial": 0,
+        "final": 0
+      },
+      "valores": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "caracteristicas": {
+        "inicial": 1,
+        "final": 19
+      },
+      "valores": [
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "tipoVenda": {
+        "id": 715,
+        "item": {
+          "tipo": "serviço",
+          "id": 747,
+          "valor": 180
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 20,
+        "final": 29
+      },
+      "valores": [
+        5,
+        5,
+        6,
+        6,
+        7
+      ],
+      "tipoVenda": {
+        "id": 716,
+        "item": {
+          "tipo": "serviço",
+          "id": 748,
+          "valor": 300
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 30,
+        "final": 39
+      },
+      "valores": [
+        10,
+        11,
+        11,
+        12,
+        13
+      ],
+      "tipoVenda": {
+        "id": 717,
+        "item": {
+          "tipo": "serviço",
+          "id": 749,
+          "valor": 600
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 40,
+        "final": 49
+      },
+      "valores": [
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "tipoVenda": {
+        "id": 718,
+        "item": {
+          "tipo": "serviço",
+          "id": 750,
+          "valor": 900
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 50,
+        "final": 59
+      },
+      "valores": [
+        20,
+        21,
+        23,
+        25,
+        26
+      ],
+      "tipoVenda": {
+        "id": 719,
+        "item": {
+          "tipo": "serviço",
+          "id": 751,
+          "valor": 1200
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 60,
+        "final": 64
+      },
+      "valores": [
+        30,
+        32,
+        34,
+        37,
+        39
+      ],
+      "tipoVenda": {
+        "id": 720,
+        "item": {
+          "tipo": "serviço",
+          "id": 752,
+          "valor": 1800
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 65,
+        "final": 69
+      },
+      "valores": [
+        30,
+        32,
+        34,
+        37,
+        39
+      ],
+      "tipoVenda": {
+        "id": 721,
+        "item": {
+          "tipo": "serviço",
+          "id": 753,
+          "valor": 1800
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 70,
+        "final": 74
+      },
+      "valores": [
+        70,
+        75,
+        80,
+        86,
+        92
+      ],
+      "tipoVenda": {
+        "id": 722,
+        "item": {
+          "tipo": "serviço",
+          "id": 754,
+          "valor": 4200
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 75,
+        "final": 79
+      },
+      "valores": [
+        70,
+        75,
+        80,
+        86,
+        92
+      ],
+      "tipoVenda": {
+        "id": 723,
+        "item": {
+          "tipo": "serviço",
+          "id": 755,
+          "valor": 4200
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 80,
+        "final": 89
+      },
+      "valores": [
+        80,
+        86,
+        92,
+        98,
+        105
+      ],
+      "tipoVenda": {
+        "id": 724,
+        "item": {
+          "tipo": "serviço",
+          "id": 756,
+          "valor": 4800
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 90,
+        "final": 1000
+      },
+      "valores": [
+        90,
+        96,
+        103,
+        110,
+        118
+      ],
+      "tipoVenda": {
+        "id": 753,
+        "item": {
+          "tipo": "serviço",
+          "id": 767,
+          "valor": 5400
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<p>O contrato <?php echo $dados->{'ch_referência'} ?> foi utilizado e teve sua data do ciclo atualizada</p>

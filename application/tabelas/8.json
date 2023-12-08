@@ -1,0 +1,198 @@
+{
+  "nome": "Novo C12",
+  "sigla": "kit-c12-q12",
+  "bloco_tipo": 1,
+  "parcelas": 120,
+  "produtoPlano": "sim",
+  "produtoJazigo": "sim",
+  "quadra": "12",
+  "beneficiarios": "sim",
+  "procuradores": "sim",
+  "vendaPlano": {
+    "id": 729,
+    "item": {
+      "tipo": "serviço",
+      "id": 746,
+      "valor": 2160
+    },
+    "valores": [
+      40,
+      55,
+      70,
+      90
+      110,
+      129,
+      142,
+      156,
+      172,
+      188
+    ]
+  },
+  "vendaJazigo": {
+    "id": 786,
+    "item": {
+      "tipo": "produto",
+      "id": 930,
+      "valor": 22000
+    },
+    "valores": [
+      144,
+      159,
+      174,
+      194,
+      214,
+      233,
+      246,
+      260,
+      276,
+      292
+    ],
+    "sinal": 250
+  },
+  "tiposDeVendas": [],
+  "triggers": [
+    {
+      "funcao": "promocaoValorBasePorIdadeQuantidadeMinima",
+      "parametros": {
+        "idade": 61,
+        "quantidadeMinima": 1,
+        "valores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "valoresBeneficiarios": [
+    {
+      "caracteristicas": {
+        "inicial": 0,
+        "final": 60
+      },
+      "valores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "caracteristicas": {
+        "inicial": 61,
+        "final": 69
+      },
+      "valores": [
+        60,
+        75,
+        90,
+        110,
+        130,
+        149,
+        162,
+        176,
+        192,
+        208
+      ],
+      "tipoVenda": {
+        "id": 730,
+        "item": {
+          "tipo": "serviço",
+          "id": 747,
+          "valor": 180
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 70,
+        "final": 79
+      },
+      "valores": [
+        70,
+        85,
+        100,
+        120,
+        140,
+        159,
+        172,
+        186,
+        202,
+        218
+      ],
+      "tipoVenda": {
+        "id": 731,
+        "item": {
+          "tipo": "serviço",
+          "id": 748,
+          "valor": 300
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 80,
+        "final": 89
+      },
+      "valores": [
+        80,
+        95,
+        110,
+        130,
+        150,
+        169,
+        182,
+        196,
+        212,
+        228
+      ],
+      "tipoVenda": {
+        "id": 732,
+        "item": {
+          "tipo": "serviço",
+          "id": 749,
+          "valor": 600
+        }
+      }
+    },
+    {
+      "caracteristicas": {
+        "inicial": 90,
+        "final": 1000
+      },
+      "valores": [
+        90,
+        105,
+        120,
+        140,
+        160,
+        179,
+        192,
+        206,
+        222,
+        238
+      ],
+      "tipoVenda": {
+        "id": 733,
+        "item": {
+          "tipo": "serviço",
+          "id": 750,
+          "valor": 900
+        }
+      }
+    }
+  ]
+}

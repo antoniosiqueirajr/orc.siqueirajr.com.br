@@ -1,0 +1,1 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class sys_config extends B10_Model{    public function __construct() {        parent::__construct();    }        public function get_valor_por_parametro($parametro){        return $this->get(array('parametro'=>$parametro))->valor;    }}
