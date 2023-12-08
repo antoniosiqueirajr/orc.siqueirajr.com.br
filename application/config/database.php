@@ -49,9 +49,9 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'orchestrator_user';
-$db['default']['password'] = '3czCv8%76';
-$db['default']['database'] = 'orchestrator';
+$db['default']['username'] = 'orc_user';
+$db['default']['password'] = '3Yeh3a3$0';
+$db['default']['database'] = 'orc';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
